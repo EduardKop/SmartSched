@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    position: sticky;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
+.profileInfo{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.mainInfo{
+    display: flex;
+}
+.textInfo{
+    padding: 10px;
+}
+.avatar{
+    padding:10px;
+}
+.name{
+    text-align: center;
+}
+.logout{
+    margin: 10px;
+}
